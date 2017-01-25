@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var timeout;
     $('#searchUser').on('keyup', function(e) {
-        let username = e.target.value;
+        var username = e.target.value;
 
         clearTimeout(timeout);
         timeout = setTimeout(function() {
