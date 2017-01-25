@@ -1,0 +1,37 @@
+.navbar{
+	background: #f5f5f5;
+	border-radius: 0 !important;
+}
+.navbar-inverse .navbar-brand{
+	color: #000;
+}
+.navbar-inverse {
+	border: none;
+	border-color: none;
+	border-bottom: 1px solid #e5e5e5;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: #000;
+	background-color: #7d7473;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color: #000;
+}
+.navbar-inverse .navbar-collapse{
+	border-color: #000;
+}
+.avatar{
+  width:100%;
+  border-radius: 10px !important;
+}
+
+.margin{
+	display: inline-block;
+	padding: 6px;
+	margin:6px 0;
+}
+
+.p-title{
+	font-size: 16px;
+	line-height: 2;
+}
